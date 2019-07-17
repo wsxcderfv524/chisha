@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "中午吃啥？",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#ccc",
+    "selectedColor":"#108cee",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"static/tabs-icon/home.png",
+        "selectedIconPath":"static/tabs-icon/homeActive.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "static/tabs-icon/design.png",
+        "selectedIconPath": "static/tabs-icon/designActive.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
