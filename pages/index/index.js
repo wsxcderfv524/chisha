@@ -17,10 +17,11 @@ Page({
       "北麦王",
       "牛肉面",
       "嵊州小吃",
+      "虾小哥",
       "快餐"
     ],
     checkIndex : 0,
-    isxh : true,
+    isxh : false,
   },
   //事件处理函数
   bindViewTap: function() {
@@ -56,7 +57,7 @@ Page({
       })
     }
 
-    this.xunhuan();
+    // this.xunhuan();
   },
 
   xunhuan:function(){
@@ -98,5 +99,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  onHide(){
+    this.tingzhi();
+  },
+  onUnload(){
+    this.tingzhi();
   }
 })

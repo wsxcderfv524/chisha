@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+
+    "pages/1024/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,10 +21,10 @@
         "selectedIconPath":"static/tabs-icon/homeActive.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志",
-        "iconPath": "static/tabs-icon/design.png",
-        "selectedIconPath": "static/tabs-icon/designActive.png"
+        "pagePath": "pages/1024/index",
+        "text": "1024",
+        "iconPath": "static/tabs-icon/user.png",
+        "selectedIconPath": "static/tabs-icon/userActive.png"
       }
     ]
   },

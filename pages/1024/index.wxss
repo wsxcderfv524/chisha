@@ -1,0 +1,85 @@
+
+.conent{
+    width: 100%;
+    height:100%;
+}
+#gridPanel{width:480rpx;height:480rpx;
+    margin:0 auto;
+    background-color:#bbada0;
+    border-radius:10rpx;
+    position:relative;
+}
+.grid,.cell{width:100rpx; height:100rpx;
+    border-radius:6rpx;
+}
+.grid{background-color:#ccc0b3;
+    margin:16rpx 0 0 16rpx;
+    float:left;
+}
+.score{
+    margin-top: 200rpx;
+    text-align: center;
+    font-size: 60rpx;
+}
+.cell{
+    /*margin:16rpx 0 0 16rpx;
+    float:left;
+    position:relative;
+    z-index:10;
+    top:-464rpx;
+    left:0;*/
+    position:absolute;
+    text-align:center;
+    line-height:100rpx;
+    font-size:60rpx;
+    color:#fff;
+}
+#c00,#c01,#c02,#c03{top:16rpx;}
+#c10,#c11,#c12,#c13{top:132rpx;}
+#c20,#c21,#c22,#c23{top:244rpx;}
+#c30,#c31,#c32,#c33{top:358rpx;}
+#c00,#c10,#c20,#c30{left:16rpx;}
+#c01,#c11,#c21,#c31{left:132rpx;}
+#c02,#c12,#c22,#c32{left:246rpx;}
+#c03,#c13,#c23,#c33{left:358rpx;}
+.n2{background-color:#eee3da}
+.n4{background-color:#ede0c8}
+.n8{background-color:#f2b179}
+.n16{background-color:#f59563}
+.n32{background-color:#f67c5f}
+.n64{background-color:#f65e3b}
+.n128{background-color:#edcf72}
+.n256{background-color:#edcc61}
+.n512{background-color:#9c0}
+.n1024{background-color:#33b5e5}
+.n2048{background-color:#09c}
+.n4096{background-color:#a6c}
+.n8192{background-color:#93c}
+.n8,.n16,.n32,.n64,
+.n128,.n256,.n512,
+.n1024,.n2048,.n4096,.n8192{color:#fff}
+.n1024,.n2048,.n4096,.n8192{font-size:40rpx}
+/*分数显示*/
+p{width:480rpx; margin:0 auto;
+    font-family:Arial;font-weight:bold;
+    font-size:40rpx; padding-top:15rpx;
+}
+/*Game Over*/
+#gameOver{width:100%; height:100%;
+    position:absolute; top:0; left:0;
+
+}
+#gameOver> .box{width:100%; height:100%;
+    background-color:#555; opacity:.5;
+}
+#gameOver> .title{width:300rpx; height:200rpx;
+    border:1rpx solid #edcf72;
+    line-height:1.6em; text-align:center;
+    background-color:#fff; border-radius:10rpx;
+    position:absolute; top:50%; left:50%;
+    margin-top:-135rpx; margin-left:-150rpx;
+}
+.button{padding:10rpx; border-radius:6rpx;
+    background-color:#9f8b77; color:#fff;
+    cursor:pointer;
+}
