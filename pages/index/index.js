@@ -17,6 +17,7 @@ Page({
       "北麦王",
       "牛肉面",
       "嵊州小吃",
+      "快餐"
     ],
     checkIndex : 0,
     isxh : true,
